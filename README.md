@@ -113,6 +113,7 @@ $('div').toggleAttr('myattr', 'myNewValue', true);
 HTML after:
 ```
 <div myattr="myNewValue"></div>
+```
 
 ## License
 
@@ -121,5 +122,3 @@ The plugin is licensed under the [MIT License](http://opensource.org/licenses/MI
 ## Changelog
 
 - v1.0.0: First release
-
-```
