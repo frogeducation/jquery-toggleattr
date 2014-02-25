@@ -3,7 +3,7 @@
 A simple jQuery plugin for toggling attributes, similar to how `toggleClass`
 works for CSS classes.  Created so that `if-else` constructs like the following:
 
-```
+```javascript
 // 'unsavedChanges' is a boolean value
 if (unsavedChanges) {
     $('button#save').removeAttr('disabled');
@@ -14,7 +14,7 @@ if (unsavedChanges) {
 
 can become:
 
-```
+```javascript
 $('button#save').toggleAttr('disabled', 'disabled', !unsavedChanges);
 
 ```
@@ -29,7 +29,7 @@ Include the jQuery library first, and then the toggleAttr plugin:
 
 Call `toggleAttr` on an element:
 
-```
+```javascript
 $('#someElement').toggleAttr(<attrName>, <attrValue>, <stateVal>)
 ```
 
@@ -48,7 +48,7 @@ HTML before:
 ```
 
 JS:
-```
+```javascript
 $('input').toggleAttr('myattr');
 ```
 
@@ -59,7 +59,7 @@ HTML after:
 ```
 
 JS:
-```
+```javascript
 $('input').toggleAttr('myattr');
 ```
 
@@ -76,7 +76,7 @@ HTML before:
 ```
 
 JS:
-```
+```javascript
 $('div').toggleAttr('myattr', 'myValue');
 ```
 
@@ -93,7 +93,7 @@ HTML before:
 ```
 
 JS:
-```
+```javascript
 $('div').toggleAttr('myattr', 'myValue', true);
 ```
 
@@ -106,7 +106,7 @@ If the `<stateVal>` parameter is true and the attribute already exists, the valu
 will be updated to `<attrValue>`:
 
 JS:
-```
+```javascript
 $('div').toggleAttr('myattr', 'myNewValue', true);
 ```
 
