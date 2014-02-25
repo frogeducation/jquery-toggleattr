@@ -1,0 +1,26 @@
+{
+    "name": "toggleattr",
+    "version": "1.0.0",
+    "title": "jQuery toggleAttr",
+    "author": {
+        "name": "James Warwood",
+        "email": "james.warwood@frogasia.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.0.0"
+    },
+    "description": "A simple jQuery plugin for toggling attributes, similar to how `toggleClass` works for CSS classes.",
+    "keywords": [
+        "toggle",
+        "attr",
+        "attribute"
+    ],
+    "homepage": "https://bitbucket.org/frogasia/jquery-toggleattr",
+    "bugs": "https://bitbucket.org/frogasia/jquery-toggleattr/issues"
+}
